@@ -13,16 +13,16 @@
 ## python manage.py createsuperuser
 - Admin(관리자)계정 생성
 
-(admin.py에서)
-## from .models import Blog
+
+## from .models import Blog (admin.py에서)
 - 같은 폴더 안에 있는 models라는 파일에서 Blog라는 클래스를 가져오라는 명령어
-## admin.site.register(Blog)
+## admin.site.register(Blog) (admin.py에서)
 - admin이라는 사이트에 Blog클래스를 등록
 
-(views.py에서)
-## blogs = Blog.objects
+
+## blogs = Blog.objects (views.py에서)
 - Blog 클래스의 객체들(데이터)을 blogs라는 변수로 처리
-## {'blogs':blogs}
+## {'blogs':blogs} (views.py에서)
 - blogs라는 변수를 home.html로 리턴할 때 blogs라는 이름으로 넘김
 ## {{}}
 - view로부터 받아온 데이터를 꺼내서 html화 시킬 때 사용하는 문법
