@@ -1,10 +1,10 @@
 # Python_Study_3
 멋쟁이사자처럼(DB - Model/Admin 장고 공부)
 
-1. MTV패턴
-Model : 데이터 베이스를 담당. 데이터베이스에 어떤 정보를 받을지 정의하는 곳
-View : 데이터가 어떤 상황에서 어떤 식으로 처리되는 지에 대한 함수를 모아 놓은 곳
-Templates : Model에 있는 데이터를 사용자에게 어떻게 보여줄지 정하는 곳
+## MTV패턴
+- Model : 데이터 베이스를 담당. 데이터베이스에 어떤 정보를 받을지 정의하는 곳
+- View : 데이터가 어떤 상황에서 어떤 식으로 처리되는 지에 대한 함수를 모아 놓은 곳
+- Templates : Model에 있는 데이터를 사용자에게 어떻게 보여줄지 정하는 곳
 
 2. python manage.py makemigrations : models.py에서 우리가 짠 python코드를 번역해주는 명령어
 3. python manage.py migrate : models.py에 적힌 내용을 DB에 적용하라는 명령어
